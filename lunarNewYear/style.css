@@ -1,0 +1,298 @@
+/*Use for normal text which didn't define*/
+body         { background-color: #870202; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333333;}
+td           { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;color: #333333; vertical-align: top; }
+table 			 {width: 100%;}
+a:link       { color: #7C6A57; text-decoration: none;}/*Use for order links which are undefined*/
+a:visited    { color: #7C6A57; text-decoration: none;}
+a:active     { color: #7C6A57; text-decoration: none;}
+a:hover      { color: #C94141; text-decoration: none;}
+ul 
+{ 
+	margin: 0;
+}
+
+li 
+{ 
+	margin: 0;
+	padding-top: 5px;
+}
+
+.textarea    
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	color: #333333; 
+	background-color: #FFFFFF; 
+	border: single #999999; 
+	border-width: 1px 1px 1px 1px; 
+	overflow:auto; 
+}
+input.textbox
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	color: #333333; 
+	background-color: #FFFFFF; 
+	border-width: 1px 1px 1px 1px; 
+}
+.checkbox 
+{ 
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px; 
+	color: #111111; 
+	font-weight:400; 
+}
+.submit
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px; 
+	color: #76033F; 
+	border: 1px solid #999999;
+}
+select 
+{ 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	color: #333333; 
+	background-color: #FFFFFF; 
+	border-width: 1px 1px 1px 1px; 
+}
+
+/*item use for News module*/
+.item {margin-bottom: 8px;}
+.itemHead 
+{
+	padding: 4px; 
+	border-left: 8px solid #870202; 
+	border-bottom: 1px solid #660101; 
+	background-color: #EEEEEE; 
+	color: #000000; 
+	font-weight: bold;
+}
+.itemInfo 
+{
+	padding: 4px; 
+	text-align: center; 
+	border-bottom: 1px solid #007A78; 
+	color: #333333;
+}
+.itemTitle a 
+{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 10px;
+}
+.itemPoster {font-size: 90%;}
+.itemPostDate {font-size: 90%;}
+.itemStats {font-size: 90%;}
+.itemBody {padding: 8px;}
+.itemText {line-height: 1.5em; margin: 1px;}
+.itemFoot {text-align: center; padding: 4px; border: 1px solid #6792AE; color: #333333;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+/*Use for header of table*/
+th {background-color: #C1B071; color: #FFFFFF; padding-left: 5px; vertical-align : middle; font-size: 12px;}
+
+td#leftcolumn 
+{
+	width: 170px; 
+	background-color: #BB1111; 
+	border-left: 1px solid #FFFFFF; 
+	border-bottom: 1px solid #000000;
+} 
+td#leftcolumn th {}
+td#leftcolumn .blockTitle 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #FFFFFF; 
+	background-color: #E94D4D; 
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+}
+td#leftcolumn .blockContent 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #FFFFFF;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+#leftcolumn a:link
+{
+	color:#FFFFFF;
+	test-decoration: none;
+}
+#leftcolumn a:visited
+{
+	color:#FFFFFF;
+	test-decoration: none;
+}
+#leftcolumn a:hover
+{
+	color:#FFFFFF;
+	test-decoration: underline;
+}
+
+td#centercolumn {padding: 8px; background-color: #FFFFFF; border: 1px solid #666666;}
+
+td#centercolumn th {background-color:#C1B071;}
+td#centerCcolumn {padding: 0px;}
+td#centerCcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #870202; border-bottom: 1px solid #660101; background-color: #EEEEEE; color: #000000;}
+td#centerCcolumn .blockContent {padding: 4px; margin-bottom: 8px;background-color: #F5F6E8; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding-right: 4px;}
+td#centerLcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #870202; border-bottom: 1px solid #660101; background-color: #EEEEEE; color: #000000;}
+td#centerLcolumn .blockContent {padding: 4px; margin-bottom: 8px; background-color: #F5F6E8; line-height: 120%}
+
+td#centerRcolumn {width: 50%; padding-left: 4px;}
+td#centerRcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #870202; border-bottom: 1px solid #660101; background-color: #EEEEEE; color: #000000;}
+td#centerRcolumn .blockContent {padding: 4px;background-color: #F5F6E8; margin-bottom: 8px}
+
+div#content {text-align: left;}
+div#content .newbb_level1 { background-color:#AA964E;}
+div#content .newbb_level2 { background-color:#AA964E;}
+div#content .newbb_folder { background-color:#AA964E;}
+div#content .newbb_submenu { background-color:#AA964E; padding-right: 5px; padding-top:4px;}
+
+td#rightcolumn 
+{
+	width: 160px; 
+	background-color: #A18D79; 
+	border-right: 1px solid #FFFFFF; 
+	border-bottom: 1px solid #000000;
+}
+td#rightcolumn th {}
+td#rightcolumn .blockTitle 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #FFFFFF; 
+	background-color: #660000; 
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+}
+td#rightcolumn .blockContent 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #FFFFFF;
+}
+
+td#mainmenu a 
+{	
+	color: #FFFFFF;
+	display: block;
+	margin-bottom: 1px;
+	text-decoration: none;
+	background-color: #E94D4D;
+	border-left: 5px solid #FCCCCC;
+	font-weight: bold;
+	padding: 4px 10px;
+}
+td#mainmenu a:hover 
+{
+	color: #FA9898;
+	text-decoration: none;
+	border-left: 5px solid #FCCCCC;
+}
+         
+td#mainmenu a.menuTop 
+{
+
+}
+td#mainmenu a.menuMain 
+{
+
+}
+td#mainmenu a.menuSub {padding-left: 15px;}
+
+td#usermenu a 
+{
+	color: #FFFFFF;
+	display: block;
+	margin-bottom: 1px;
+	text-decoration: none;
+	background-color: #E94D4D;
+	border-left: 5px solid #FCCCCC;
+	font-weight: bold;
+	padding: 4px 10px;
+}
+td#usermenu a:hover 
+{
+	color: #FA9898;
+	text-decoration: none;
+	border-left: 5px solid #FCCCCC;
+}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {color: #FFFFFF; background-color: #e94d4d;}
+td#usermenu a:hover.highlight {color: #fa9898; background-color: #e94d4d;}
+
+.outer {border: 1px solid #717F76; background-color: #FFFFFF;}
+.head {background-color: #C1B071; color: #FFFFFF; padding: 5px; font-weight: bold} 
+
+.even {background-color: #ffffff; padding: 3px;}
+.odd {background-color: #ffffff; padding: 5px;}
+
+.foot {background-color: #C1B071; padding: 5px; font-weight: bold; color:#FFFFFF;} 
+tr.even td {background-color: #FFFFFF; padding: 4px;}
+tr.odd td {background-color: #C1B071; padding: 4px}  
+
+div.errorMsg {background-color: #EEEEEE; text-align: center; border-top: 1px solid #DDDDE0; border-left: 1px solid #DDDDE0; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #EEEEEE; color: #7C6A57; text-align: center; border-top: 1px solid #DDDDE0; border-left: 1px solid #DDDDE0; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #EEEEEE; color: #7C6A57; text-align: center; border-top: 1px solid #C0C0C0; border-left: 1px solid #C0C0C0; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px}
+
+div.xoopsCode {font-size: 90%; background-color: #FFFFFF; border: 1px dashed #944949; padding: 4px;}
+div.xoopsQuote {font-size: 90%; background-color: #FFFFFF; border: 1px dashed #944949; padding: 4px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #000000; font-weight: bold; border: 1px solid #870202; background-color: #FFFFFF; margin: 2px; padding: 2px}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; font-weight: bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight: bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+div.xoopsCode pre {margin: 0px;}
+div.xoopsQuote blockquote {margin: 0px;}
+
+/***********MEI DEFINES******************/
+#maintable {width: 850px;}
+
+#footer
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px; 
+	background-color:#FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#footer a:link
+{
+	color:#870202;
+	text-decoration: none;
+}
+#footer a:visited
+{
+	color:#870202;
+	text-decoration: none;
+}
+#footer a:hover
+{
+	color:#BB1111;
+	text-decoration: none;
+}
